@@ -1,0 +1,103 @@
+@font-face {
+	font-family: BebasNeue;
+	src: url("fonts/BebasNeueRegular.otf") format("opentype");;
+}
+
+@font-face {
+	font-family: BebasNeue;
+	font-weight:bold;
+	src: url("fonts/BebasNeueBold.otf") format("opentype");; 
+}
+
+
+a {
+	text-decoration:none;
+	color:#39F;
+}
+
+body {
+	padding:0vw;
+	margin:0vw;
+}
+
+
+.bulleted_list {
+	list-style-type:none;
+	margin:0vw;
+	padding:0vw;
+}
+
+.bulleted_list  li {
+	display:inline-block;
+}
+
+.bulleted_list li .bullet {
+	float:left;
+	padding-right:1vw;
+}
+
+.bulleted_list li .bullet img {
+	height:100%;
+	width:100%;
+}
+
+
+.bulleted_list li .entry {
+	float:left;
+	padding-right:1vw;
+}
+
+.inline_list {
+	list-style-type:none;
+	margin:0vw;
+	padding:0vw;
+}
+
+.inline_list li {
+	display:inline-block;
+	color:#F00;
+}
+
+.stacked_panel {
+	list-style-type:none;
+	margin:0vw;
+	padding:0vw;
+}
+
+.stacked_panel .stack_item {
+	padding:1vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.stacked_panel .stack_item .stack_item {
+	padding-bottom: auto;
+}
+
+
+#categories {
+	padding:0vw;
+	margin:0vw;
+}
+
+#basic_info {
+	color:#888;
+}
+
+#desc {
+	background:rgba(0, 0, 0, 1);
+	font-family:BebasNeue, sans-serif;
+	color:#DDD;
+}
+
+#main_content {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:black;
+	color:#BBB;
+}
+
+#name {
+	background:rgba(0, 0, 0, 1);
+	font-family:BebasNeue, sans-serif;
+	color:#FFF;
+}

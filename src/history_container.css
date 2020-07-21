@@ -1,0 +1,56 @@
+.History {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Event {
+  display: flex;
+  padding: 2rem 10vw;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* background: darksalmon; */
+  /* border-bottom: 1px solid black; */
+  /* padding-left: 10vw;
+  padding-right: 10vw; */
+}
+
+.Event:nth-of-type(odd) {
+  flex-direction: row;
+}
+
+.Event:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.LogoContainer {
+  /* width: 10rem; */
+  height: 10rem;
+  flex: 1 0 20vw;
+  /* background: darkorchid; */
+  position: relative;
+  justify-self: right;
+  /* border: 1px solid black; */
+  margin: auto
+}
+
+.Logo {
+  max-height: 100%;  
+  max-width: 100%; 
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+
+  /* border: 1px solid black; */
+}
+
+.Blurb {
+  /* flex-grow: 2; */
+  /* background: slategray; */
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: left;
+  align-self: right;
+}

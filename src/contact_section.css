@@ -1,0 +1,47 @@
+.ContactSection {
+  height: 10rem;
+  background: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 60vw 1fr;
+  /* grid-column-start: 2; */
+  justify-content: center;
+  align-content: center;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  grid-column: 2;
+}
+
+.Email {
+  /* background: papayawhip; */
+  align-self: end;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.SocialNetworks {
+  /* background: rgb(229, 215, 192); */
+  grid-row: 2;
+  align-self: start;
+  position: relative;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  /* grid-template-columns: 1fr 10vw 2vw 10vw 1fr; */
+}
+
+.SocialIconContainer {
+  /* grid-column: 3; */
+  height: 75px;
+  width: 75px;
+  /* background: darkorchid; */
+  margin: 10px;
+}
+
+.SocialIcon {
+  max-height: 100%;  
+  max-width: 100%; 
+  /* border: 1px solid black; */
+}

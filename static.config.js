@@ -6,6 +6,6 @@
 // Get started at https://react-static.js.org
 
 export default {
-  maxThreads: 1, // Remove this when you start doing any static generation
-  plugins: ["react-static-plugin-css-modules"]
+  // siteRoot: 'https://julioespinal.com',
+  //  plugins: ['react-static-plugin-css-modules'],
 }

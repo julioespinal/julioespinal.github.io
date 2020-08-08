@@ -2,6 +2,12 @@ import React from 'react'
 import ExtractCssChunks from 'extract-css-chunks-webpack-plugin'
 
 export default pluginOptions => ({
+    headElements: async (elements, state) => {
+        return [
+            <title>Julio Espinal</title>,
+            ...elements,
+        ]
+    },
     webpack: (config, { stage }) => {
         let loaders = []
 

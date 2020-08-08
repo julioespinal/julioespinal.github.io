@@ -7,7 +7,7 @@
     "build": "react-static build",
     "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'Copying CNAME...' && cp CNAME dist && echo 'Done.'",
     "deploy": "gh-pages -d dist -b master"
   },
   "dependencies": {
